@@ -1,14 +1,18 @@
-public class waterPokemon extends Pokemon {
+public class WaterPokemon extends Pokemon {
 
     String ability;
     boolean water = true;
 
 
 
-    public waterPokemon(String namePokemon,int hp, String type, int damage, String ability, boolean water) {
+    public WaterPokemon(String namePokemon,int hp, String type, int damage, String ability, boolean water) {
         super(namePokemon, hp, type, damage);
         this.ability = ability;
         this.water = water;
+    }
+
+    public void isTypeWater (){
+        System.out.println(getNamePokemon() + " : 'maar, ik ben een waterPokemon'");
     }
 
 
