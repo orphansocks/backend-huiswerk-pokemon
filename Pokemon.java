@@ -20,18 +20,19 @@ public class Pokemon {
 
     }
 
-
     public void playsCard() {
         System.out.println(this.namePokemon + " is type " + type + " with " + hp + " hp");
     }
     public void isAttacked(int damage) {
         this.hp = this.hp - damage;
         System.out.println(namePokemon + " is attacked and loses " + damage + " hp");
+        System.out.println(namePokemon + " has left " +  hp);
     }
 
     public void isAttackedByFire(int damage, String type){
         this.hp = this.hp - damage;
-        System.out.println("in superclass Pokemon is attacked by fire dan minus damage");
+        System.out.println("if stringcompare is true dan print");
+        System.out.println(namePokemon + " has left " +  hp);
 
 
     }
