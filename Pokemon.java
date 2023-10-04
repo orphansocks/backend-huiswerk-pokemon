@@ -29,17 +29,20 @@ public class Pokemon {
         System.out.println(namePokemon + " has left " +  hp);
     }
 
-    public void isAttackedByFire(int damage, String type){
-        this.hp = this.hp - damage;
-        System.out.println("if stringcompare is true dan print");
-        System.out.println(namePokemon + " has left " +  hp);
+    public void isAttackedByFire(String type){
+        if(type.equals("fire")) {
+            System.out.println(namePokemon + " remains unharmed");
+        }
+        else if(type.equals("water")) {
+            System.out.println(namePokemon + " is type water and is super-effective against fire");
+        }
+            else {
+                System.out.println(namePokemon + " is attacked  ");
+            }
+        }
 
 
     }
 
 
 
-
-
-
-}

@@ -2,6 +2,7 @@ public class ElectricPokemon extends Pokemon {
 
     String ability;
     boolean electric = true;
+    String sound;
 
 
 

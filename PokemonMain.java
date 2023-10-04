@@ -14,6 +14,7 @@ public class PokemonMain {
 
         System.out.println("--------------------------------");
         System.out.println("Show your deck in 2 ways:");
+        System.out.println("--------------------------------");
 
    for (String n : pokemon.keySet()) {
        System.out.println("card " + n + " hp " + pokemon.get(n));
@@ -44,6 +45,9 @@ public class PokemonMain {
         System.out.println("--------------------------------");
 
         Charmander.fireAttacks(20);
+
+        System.out.println("--------------------------------");
+
         Slowbrow.isAttacked(20);
         Slowbrow.isTypeWater();
 
@@ -54,8 +58,10 @@ public class PokemonMain {
 
         System.out.println("--------------------------------");
 
-        Pikachu.isAttackedByFire(30, "fire");
-        Slowbrow.isAttackedByFire(20, "fire");
+        Slowbrow.isAttackedByFire ("water");
+        Charmander.isAttackedByFire ("fire");
+        Bulbasaur.isAttackedByFire ("grass");
+        Pikachu.isAttackedByFire ("electric");
 
         System.out.println("--------------------------------");
 

@@ -12,7 +12,7 @@ public class WaterPokemon extends Pokemon {
     }
 
     public void isTypeWater (){
-        System.out.println(getNamePokemon() + " : 'maar, ik ben een waterPokemon'");
+        System.out.println(getNamePokemon() + " : 'dit is onjuist, ik ben een waterPokemon'");
     }
 
 
